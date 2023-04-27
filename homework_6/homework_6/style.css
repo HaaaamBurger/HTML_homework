@@ -1,0 +1,51 @@
+body > div header, main > section:first-child div, main > section:last-child div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    margin: 0;
+}
+body > div:first-child{
+    width: 100vw;
+    height: 100vh;
+}
+header{
+    width: 100%;
+    height: 30vh;
+    background-color: #cac7c7;
+}
+main{
+    display: flex;
+    height: 70vh;
+}
+main section:first-child{
+    width: 70%;
+}
+main section:last-child{
+    width: 30%;
+}
+article{
+    display: flex;
+    height: 50%;
+}
+article div:first-child{
+    background-color: #d1b4b4;
+}
+article div:nth-child(2){
+    background-color: #8b7373;
+}
+article div:last-child{
+    background-color: #534747;
+}
+article div{
+    width: 100%;
+}
+main section:first-child > div{
+    height: 50%;
+    background-color: #979393;
+}
+main section:last-child > div{
+    height: 100%;
+    background-color: #7b6e6e;
+}

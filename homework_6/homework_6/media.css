@@ -1,0 +1,18 @@
+@media screen and (max-width: 500px){
+    header, main section:last-child > div{
+        height: 25vh;
+        width: 100vw;
+    }
+    main{
+        flex-direction: column;
+    }
+    main section:first-child > div{
+        width: 100vw;
+        height: 35vh;
+    }
+    article{
+        height: 15vh;
+        width: 100vw;
+    }
+
+}

@@ -1,0 +1,14 @@
+@media screen and (max-width: 500px) {
+    header{
+        height: 20vh;
+    }
+    main{
+        flex-direction: column;
+    }
+    main section:last-child{
+        height: 35vh;
+    }
+    main section:first-child{
+        height: 45vh;
+    }
+}
