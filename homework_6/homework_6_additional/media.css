@@ -6,9 +6,13 @@
         flex-direction: column;
     }
     main section:last-child{
-        height: 35vh;
+        width: 100vw;
+        height: 30vh;
     }
     main section:first-child{
-        height: 45vh;
+        width: 100vw;
+        height: 50vh;
     }
+
+
 }
