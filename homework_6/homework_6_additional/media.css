@@ -1,18 +1,16 @@
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px){
     header{
         height: 20vh;
     }
     main{
         flex-direction: column;
     }
-    main section:last-child{
+    .left_side_bar{
         width: 100vw;
-        height: 30vh;
+        height: 40vh;
     }
-    main section:first-child{
+    .right_side_bar{
         width: 100vw;
-        height: 50vh;
+        height: 40vh;
     }
-
-
 }
