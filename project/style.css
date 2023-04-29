@@ -126,6 +126,8 @@ header article section button{
 /*---------------------------------------HEADER---------------------------------------*/
 
 /*---------------------------------------MAIN---------------------------------------*/
+
+/*---------------------------------------MAIN_section_1---------------------------------------*/
 main{
     width: 100vw;
     height: 500px;
@@ -189,11 +191,16 @@ main section:first-child{
 .main_values div:nth-child(2){
     margin: 40px 0;
 }
+/*---------------------------------------MAIN_section_1---------------------------------------*/
 
-main section:last-child{
-    box-sizing: border-box;
-    color: white;
+/*---------------------------------------MAIN_section_2---------------------------------------*/
+main section:nth-child(2){
+    display: flex;
+    justify-content: space-between;
     padding: 100px 450px 0 450px;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+    color: white;
 }
 .main_adoption h2{
     font-family: 'Raleway', sans-serif;
@@ -204,6 +211,68 @@ main section:last-child{
     font-size: 0.8em;
     color: #C4C4C4;
 }
+.main_articles{
+    display: flex;
+}
+.main_articles h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3em;
+    margin: 0;
+}
+.main_articles p{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.8em;
+    color: #C4C4C4;
+}
+.main_articles_section_1{
+    margin-right: 80px;
+}
+.main_articles_section_1 div:nth-child(2),.main_articles_section_2 div:nth-child(2){
+    margin: 20px 0 40px 0;
+}
+.main_articles_section_1 div:nth-child(3),.main_articles_section_2 div:nth-child(3){
+    margin-bottom: 20px;
+}
+.main_articles_section_2 div:nth-child(3) a{
+    color: #19FB9B;
+}
+/*---------------------------------------MAIN_section_2---------------------------------------*/
+
+/*---------------------------------------MAIN_section_3---------------------------------------*/
+
+main section:last-child{
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    padding: 100px 450px 0 450px;
+    box-sizing: border-box;
+    color: white;
+}
+.bottom_nav{
+    display: flex;
+    justify-content: space-between;
+}
+.bottom_nav div:last-child a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+
+    padding: 7px 9px;
+    background-color: #101010;
+    border-radius: 10px;
+    border: none;
+}
+.bottom_nav div:last-child{
+    box-sizing: border-box;
+    width: 370px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/*---------------------------------------MAIN_section_2---------------------------------------*/
 
 
 /*---------------------------------------MAIN---------------------------------------*/
