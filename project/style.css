@@ -2,12 +2,12 @@
 body{
     height: 1500px;
     margin: 0;
+    background-color: black;
 }
 nav{
     padding-top: 25px;
     width: 100vw;
     height: 60px;
-    background-color: black;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -55,7 +55,6 @@ header article{
     padding-top: 150px;
     width: 100%;
     height: 100%;
-    background-color: black;
 }
 header article h2{
     font-size: 4em;
@@ -76,8 +75,8 @@ header article section button{
     border: 1px solid #000000;
 }
 .header_buttons button:last-child{
-    margin-left: 20px;
     background-color: black;
+    margin-left: 20px;
     border: 1px solid white;
 }
 .header_icons{
@@ -125,3 +124,86 @@ header article section button{
     height: 27px;
 }
 /*---------------------------------------HEADER---------------------------------------*/
+
+/*---------------------------------------MAIN---------------------------------------*/
+main{
+    width: 100vw;
+    height: 500px;
+}
+main section{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+main p{
+    margin: 0;
+}
+.main_title h2{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+}
+.main_title{
+    box-sizing: border-box;
+    /*padding: 60px 0 0 450px;*/
+    width: 50%;
+    height: 100%;
+}
+.main_values{
+    box-sizing: border-box;
+    padding-left: 20px;
+    color: white;
+    width: 50%;
+    height: 100%;
+}
+.main_values h2{
+    font-size: 4em;
+}
+main section:first-child{
+    padding: 100px 450px 0 450px;
+    box-sizing: border-box;
+}
+.main_values div:first-child h2{
+    background: linear-gradient(261.81deg, #19FB9B -8.01%, #8C01FA 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.main_values div:nth-child(2) h2{
+    background: linear-gradient(260.33deg, #0047FF -13.37%, #00BCD4 109.53%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.main_values div:last-child h2{
+    background: linear-gradient(265.11deg, #00FFBD -5.84%, #025B8C 111.58%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.main_values p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8em;
+    color: #C4C4C4;
+}
+.main_values div:nth-child(2){
+    margin: 40px 0;
+}
+
+main section:last-child{
+    box-sizing: border-box;
+    color: white;
+    padding: 100px 450px 0 450px;
+}
+.main_adoption h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+}
+.main_adoption p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8em;
+    color: #C4C4C4;
+}
+
+
+/*---------------------------------------MAIN---------------------------------------*/
